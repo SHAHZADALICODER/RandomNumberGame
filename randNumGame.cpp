@@ -79,7 +79,9 @@ int main()
         botPlayerChoice = getRandomNum(1 , 10);
 
         cout<<player1.getName()<<" you Chose : "<<realPlayerChoice<<" and "<<player2.getName()<<" Chose : "<<botPlayerChoice<<endl;
+        string anyKey;
         cout<<"Press Enter Key."<<endl;
+        cin>>anyKey;
 
         finalGeneratedNum = getRandomNum(1 , 10);
 
